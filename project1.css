@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', 'cursive';
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("img/header.jpg");
+  background-repeat: repeat;
+  width: 100vw;
+  border-bottom: solid;
+  border-color: #000000;
+  padding-bottom: 20px;
+}
+
+img {
+  height: 500px;
+  Width: 500px;
+}
+
+.name {
+  align-items: center;
+  border-bottom: solid;
+  border-width: thick;
+}
+
+.navbar {
+  padding-top: 20px;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.welcome {
+  margin-top: 100px;
+  width: 1000px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-image: url("img/flowers.jpg");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: medium;
+}
+
+.goal {
+  margin-top: 100px;
+  width: 1000px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-image: url("img/flowers.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: medium;
+}
+
+.networking {
+  margin-top: 100px;
+  width: 1000px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-image: url("img/flowers.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: medium;
+  letter-spacing: 2px;
+
+}
+
+.blog {
+  margin-top: 100px;
+  width: 1000px;
+  margin-left: 250px;
+  background-image: url("img/flowers.jpg");
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: solid;
+  border-width: medium;
+  padding-left: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("img/header.jpg");
+  background-repeat: repeat;
+  width: 100vw;
+  height: 9vw;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #000000;
+  padding-bottom: 20px;
+}
